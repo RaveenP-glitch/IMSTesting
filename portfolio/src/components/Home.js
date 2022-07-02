@@ -2,7 +2,12 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <main>
+      <img />
+      <section>
+        <h1>Aloha, I'm Whosetheboss</h1>
+      </section>
+    </main>
   )
 }
 

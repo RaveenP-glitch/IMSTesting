@@ -35,10 +35,11 @@ function NavBar() {
                     
                 </nav>
 
-                <div>
+                <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon url="https://www.youtube.com/" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }} />
                     <SocialIcon url="https://www.instagram.com/" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }} />
                     <SocialIcon url="https://www.facebook.com/" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }} />
+                    <SocialIcon url="https://www.telegram.com/" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }} />
                 </div>
             </div>
         </header>
