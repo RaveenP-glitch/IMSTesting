@@ -1,9 +1,15 @@
-import React from 'react';
-import 
+import React, { useState, useEffect } from 'react';
+import sanityClient from "../client.js";
 
 function Post() {
   return (
-    <div>Post</div>
+    const [postData, setPost] = useState(null);
+    
+    useEffect(() => {
+      sanityClient
+        .fetch(``)
+    })
+
   )
 }
 
